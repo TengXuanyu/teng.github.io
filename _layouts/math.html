@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+                tex2jax: {
+                skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+                inlineMath: [['$','$']]
+                }
+            });
+        </script>
+        {% include meta_tags/base.html %}
+        {% include meta_tags/sharing.html %}
+
+        {% include externals/styling.html %}
+    </head>
+
+    <body>
+        <div class="wrapper">
+            {% include header.html %}
+
+            {{ content }}
+        </div>
+
+        {% include externals/scripting.html %}
+    </body>
+</html>
