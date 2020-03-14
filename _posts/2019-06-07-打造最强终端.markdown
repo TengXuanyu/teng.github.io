@@ -1,5 +1,5 @@
 ---
-layout: defult
+layout: default
 title: "磨刀不误砍柴工，美化wsl"
 categories: linux
 ---
