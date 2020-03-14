@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: defult
 title: "磨刀不误砍柴工，美化wsl"
 categories: linux
 ---
