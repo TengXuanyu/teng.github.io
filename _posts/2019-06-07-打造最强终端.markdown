@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "磨刀不误砍柴工，美化wsl"
-categories: tools
+categories: CS
 ---
 # <center>一、准备</center>
 >wsl<br>

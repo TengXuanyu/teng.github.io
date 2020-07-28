@@ -1,8 +1,5 @@
-- slug: school
-  name: School
-
-- slug: computer
-  name: Computer
+- slug: CS
+  name: CS
 
 - slug: 闲谈
   name: 闲谈

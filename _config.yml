@@ -18,13 +18,16 @@ url: "" # the base hostname & protocol for your site
 # google_analytics: 'UA-XXXXXXXX-X'
 
 # Syntax highlighting
-highlightstyle: 'xcode'
-styles: [xcode]
+# highlightstyle: 'xcode'
+# styles: [xcode]
 # styles: [monokai]
 
 # Handling Reading
 exclude: ["README.md", "README.html"]
 
 # Build settings
-highlighter: null
+highlighter: rouge
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

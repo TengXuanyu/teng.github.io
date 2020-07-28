@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Emacs Org Mode
-categories: computer
+categories: CS
 ---
 
 > Emacs is the extensible, customizable, self-documenting real-time display editor.
-> 
+>
