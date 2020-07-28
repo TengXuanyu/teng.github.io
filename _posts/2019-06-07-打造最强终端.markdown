@@ -47,7 +47,7 @@ wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - 
 >语法高亮与语法补全
 
 在`~/.zshrc`添加
-{}
+```
 plugins = (zsh-autosuggestions zsh-syntax-highlighting)
 ```
 
