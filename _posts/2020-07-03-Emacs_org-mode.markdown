@@ -3,6 +3,7 @@ layout: default
 title: Emacs Org Mode
 categories: CS
 ---
+# Emacs Org Mode
 
 > Emacs is the extensible, customizable, self-documenting real-time display editor.
 
@@ -22,21 +23,28 @@ Org-mode是emacs的一个强大的工具，它可以用来写博客，记笔记�
 ### 特殊字体
 
 按着Markdown和LaTeX琢磨吧<br>
-注:  `+删除线+`
-    `_下划线_`
-    `=等宽=`
+注:<br>
+
+{% highlight html %}
++删除线+
+_下划线_
+=等宽=
+{% endhighlight %}
+
 
 ### 表格
 
-按`表头|表头`的格式键入`C-c RET`就能快捷建立表格，tab键在表格内跳转(会自动新增下一行)
+按“`表头|表头`”的格式键入“`C-c RET`”就能快捷建立表格，tab键在表格内跳转(会自动新增下一行)
 
 ### 代码块
 
-```
+{% highlight html %}
 #+BEGIN_SRC language
   balabalabala
 #+END_SRC
-```
-键入M-x org-edit-src-code，就可以在相应的模式下编辑这段代码，简单说就是新建立个窗口，有相应的补全等功能
+
+{% endhighlight %}
+
+键入“M-x org-edit-src-code”，就可以在相应的模式下编辑这段代码，简单说就是新建立个窗口，有相应的补全等功能
 
 ##### 就先写这么多吧
