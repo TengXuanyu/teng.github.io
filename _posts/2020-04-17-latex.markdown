@@ -69,6 +69,7 @@ x &= y+z
 x, \quad x>0
 \end{cases}     # 分段函数
 ~~~
+
 ##### 长公式对齐
 $$
 \begin{aligned}
